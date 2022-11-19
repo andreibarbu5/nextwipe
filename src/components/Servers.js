@@ -9,48 +9,48 @@ const Servers = () => {
       type: "bg-black",
       wipe: "2 days 20hrs 17 mins",
       fill: 1,
+      country: "Europe",
+      groupsize: "SOLO",
     },
     {
       name: "Hollowserver 2x Duo",
       type: "bg-black",
       wipe: "2 days 20hrs 17 mins",
       fill: 1,
+      country: "USA",
+      groupsize: "DUO",
     },
     {
       name: "Hollowserver 2x Duo",
       type: "bg-black",
       wipe: "2 days 20hrs 17 mins",
       fill: 1,
+      country: "ASIA",
+      groupsize: "TRIO",
     },
     {
       name: "Hollowserver 2x Duo",
       type: "bg-black",
       wipe: "2 days 20hrs 17 mins",
       fill: 1,
+      country: "Europe",
+      groupsize: "SOLO",
     },
     {
       name: "Hollowserver 2x Duo",
       type: "bg-black",
       wipe: "2 days 20hrs 17 mins",
       fill: 1,
+      country: "USA",
+      groupsize: "DUO",
     },
     {
       name: "Hollowserver 2x Duo",
       type: "bg-black",
       wipe: "2 days 20hrs 17 mins",
       fill: 1,
-    },
-    {
-      name: "Hollowserver 2x Duo",
-      type: "bg-black",
-      wipe: "2 days 20hrs 17 mins",
-      fill: 1,
-    },
-    {
-      name: "Hollowserver 2x Duo",
-      type: "bg-black",
-      wipe: "2 days 20hrs 17 mins",
-      fill: 1,
+      country: "ASIA",
+      groupsize: "TRIO",
     },
   ];
   return (
@@ -66,6 +66,8 @@ const Servers = () => {
               type={server.type}
               wipe={server.wipe}
               fill={server.fill}
+              country={server.country}
+              groupsize={server.groupsize}
             />
           ))}
         </div>

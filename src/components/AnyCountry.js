@@ -6,8 +6,8 @@ const AnyCountry = () => {
     <div>
       {/* ANY COUNTRY */}
       <div className="relative" onClick={() => setIsCountry(!isCountry)}>
-        <div className="bg-gray-300 p-1 rounded-[0.3rem] text-[14px] font-['Poppins'] font-semibold flex items-center">
-          <button>ANY COUNTRY</button>
+        <div className="bg-gray-300 p-1 rounded-[0.3rem] text-[14px] font-['Poppins'] font-semibold flex items-center justify-center w-[8rem] ">
+          <button>COUNTRY</button>
           <MdKeyboardArrowDown className="text-[17px]" />
         </div>
         {/* DROPDOWN */}
